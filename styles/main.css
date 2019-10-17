@@ -12,15 +12,15 @@ h1 {
 img {
     border-style: none;
     border-radius: 100%;
-    filter: grayscale(0);
+    filter: drop-shadow(0);
+    -webkit-filter: drop-shadow(0);
 }
 img:hover{
-    filter: grayscale(1);
-    border-style: none;
+    filter: drop-shadow(2px 4px 6px black);
+    border-style: solid;
     border-radius: 100%;
     transition: background-size 0.3s ease;
-    filter: grayscale(1);
-    transition: background-size 0.3s ease; 
+    -webkit-filter: drop-shadow(2px 4px 6px black);
 }
 
  body {
